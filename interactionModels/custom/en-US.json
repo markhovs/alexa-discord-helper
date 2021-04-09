@@ -1,0 +1,154 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "discord helper",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "DiscordSongIntent",
+          "slots": [
+            {
+              "name": "song",
+              "type": "ANYTHING"
+            }
+          ],
+          "samples": [
+            "play {song}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "the sky is blue"
+              }
+            },
+            {
+              "name": {
+                "value": "eminem space bound"
+              }
+            },
+            {
+              "name": {
+                "value": "I like it"
+              }
+            },
+            {
+              "name": {
+                "value": "I want to pay cash"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bal bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla bla"
+              }
+            },
+            {
+              "name": {
+                "value": "bla"
+              }
+            }
+          ],
+          "name": "ANYTHING"
+        }
+      ]
+    }
+  },
+  "version": "2"
+}
